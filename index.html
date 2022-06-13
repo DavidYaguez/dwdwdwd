@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta lang="es">
+      <meta author="MICHA">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+         rel="stylesheet">
+      <link rel="stylesheet" href="../fonts.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pattaya&family=Playfair+Display&display=swap" rel="stylesheet">
+      <link rel="stylesheet" media="only screen and (min-width: 360px) and (max-width: 619px)" href="../css/index/mobil.css">
+      <link rel="stylesheet" media="only screen and (min-width:620px) and (max-width:1023px)" href="../css/index/tablet.css">
+      <link rel="stylesheet" media="only screen and (min-width:1024px)" href="../css/index/pc.css">
+      <title>La Latina</title>
+   </head>
+   <body>
+      <header class="header">
+         <div class="Logo">
+         
+         <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-menu"></span>Menú</a>
+         </div>
+         <div class="respmenu">
+         <input type="checkbox">
+         <i class="fas fa-bars"></i>
+         <i class="fas fa-times"></i>
+         <nav class="menu">
+            <ul>
+               <li><a href="index.html"><span class="icon-home"></span> Inici</a></li>
+               <li><a href="seleccion_recetas.html"><span class="icon-file-text"></span> Receptes</a></li>
+               <li><a href="sobre_nosotros.html"><span class="icon-users"></span> Sobre nosaltres</a></li>
+               <li><a href="contacto.html"><span class="icon-envelop"></span> Contacte</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div id="contenedor">
+         <div class="slider">
+            <ul>
+               <li>
+                  <img src="../img/banner1.jpg" alt="" id="banner1">
+               </li>
+               <li>
+                  <img src="../img/banner2.jpg" alt="" id="banner2">
+               </li>
+               <li>
+                  <img src="../img/banner3.jpg" alt="" id="banner3">
+               </li>
+               <li>
+                  <img src="../img/banner4.jpg" alt="" id="banner4">
+               </li>
+               <li>
+                  <img src="../img/banner5.jpg" alt="" id="banner5">
+               </li>
+            </ul>
+         </div>
+         <section>
+            <h1>Platos especiales</h1>
+            <p>Et donem la benvinguda ¡¡a la Latina!!, aquí trobarás una gran varietat plats,postres i begudes latins <br>
+               ¡Cada dia innovem alguna beguda o plat per que el tu paladar no et cansi de nosaltres!</p>
+         </section>
+         <div class="cuadrados">
+            <div class="cuadrado" id="cuadrado1">
+               <img src="../img/cebollado.jpg">
+               <button onclick="location.href='receta3.html'" target="_blank" class="cuadrado_transparente"><a href="receta3.html">
+                  <h4>Encebollado
+        </h4>
+              </a> </button>
+            </div>
+            <div class="cuadrado" id="cuadrado2">
+               <img src="../img/recetas/chaulafan.jpg">
+               <button onclick="location.href='receta1.html'" class="cuadrado_transparente"><a href="receta1.html">
+                  <h4>Chaulafan</h4></a>
+               </button>
+            </div>
+            <div class="cuadrado" id="cuadrado3">
+               <img src="../img/recetas/bolon.jpg">
+               <button onclick="location.href='../receta2.html'" class="cuadrado_transparente">
+                  <h4>Bolón</h4><a href="receta2.html"></a>
+               </button>
+            </div>
+         </div>
+
+      </div>
+      <footer>
+        <p>LA LLATINA</p>
+      </footer>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="../js/menu.js"></script>
+      <script>
+         $('.navbar-nav>li>a').on('click', function(){
+             $('.navbar-collapse').collapse('hide');
+         });
+      </script>
+   </body>

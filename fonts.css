@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?gf4fzq');
+  src:  url('fonts/icomoon.eot?gf4fzq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?gf4fzq') format('truetype'),
+    url('fonts/icomoon.woff?gf4fzq') format('woff'),
+    url('fonts/icomoon.svg?gf4fzq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-images:before {
+  content: "\e90e";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-users:before {
+  content: "\e972";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('redes_sociales/icomoon.eot?86gp89');
+  src:  url('redes_sociales/icomoon.eot?86gp89#iefix') format('embedded-opentype'),
+    url('redes_sociales/icomoon.ttf?86gp89') format('truetype'),
+    url('redes_sociales/icomoon.woff?86gp89') format('woff'),
+    url('redes_sociales/icomoon.svg?86gp89#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}

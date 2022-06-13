@@ -1,0 +1,237 @@
+@media (min-width: 620px) and (max-width: 1023px){
+  body{
+    background-color: white;
+    margin: 0;
+  }
+
+  .slider img{
+    height: 220px;
+  }
+
+  .header{
+    background-color: white;
+    opacity: 90%;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+  }
+
+.menu_bar{
+  background-color: yellow;
+  width: 100%;
+  line-height: 60px;
+  margin-right: 30px;
+  text-align: center;
+  margin-top: 7px;
+  height: 60px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+}
+
+  .logo{
+    float: left;
+    line-height: 120px;
+  }
+
+  .menu{
+    background-color:white;
+    width: 100%;
+    line-height: 60px;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: -11px;
+    height: 60px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.9);
+  }
+
+  .menu a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 14px;
+    line-height: normal;
+    font-size: 18px;
+    transition: all 500ms ease;
+    border-bottom: 4px solid transparent;
+    font-family: 'PT Serif', serif;
+  }
+
+  .menu li{
+    color: black;
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+  }
+
+  .menu a:hover{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: .4s;
+    padding: 6px;
+  }
+
+
+  input[type="checkbox"]{
+    display: none;
+  }
+
+  #contenedor{
+    width: 96%;
+    height: auto;
+    margin: auto;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  }
+
+    .slider {
+      width: 95%;
+        margin: auto;
+        overflow: hidden;
+        margin-top: 183px;
+        max-height: 500px;
+  }
+
+    .slider ul {
+    	display: flex;
+    	padding: 0;
+    	width: 500%;
+    	animation: cambio 20s infinite alternate linear;
+    }
+
+    .slider li {
+    	width: 100%;
+    	list-style: none;
+    }
+
+    .slider img{
+      height: 250px;
+      width: 100%;
+    }
+      section{
+          width: 96%;
+          padding: 1px;
+          margin: auto;
+          background-color: #fff;
+          text-align: center;
+        }
+
+      section p{
+        font-size: 18px;
+        line-height: 26px;
+        font-family: 'PT Serif', serif;
+      }
+
+      section h1{
+        font-size: 28px;
+        color: Black;
+        font-family: 'Lobster', cursive;
+      }
+
+      @keyframes cambio {
+      	0% {margin-left: 0;}
+      	20% {margin-left: 0;}
+
+      	25% {margin-left: -100%;}
+      	45% {margin-left: -100%;}
+
+      	50% {margin-left: -200%;}
+      	70% {margin-left: -200%;}
+
+      	75% {margin-left: -300%;}
+      	100% {margin-left: -300%;}
+      }
+
+      .cuadrados {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 30px;
+}
+
+    .cuadrado{
+      width: 457px;
+      height: 300px;
+      float: left;
+      margin-right: 20px;
+      min-height: 300px;
+    }
+
+    .cuadrado img{
+      width: 100%;
+      height: 250px;
+      margin: 0;
+      max-height: 300px;
+    }
+
+      #cuadrado1 {
+        margin-left: 22px;
+    }
+
+    #cuadrado2 {
+        float: right;
+        margin-right: 20px;
+    }
+
+    #cuadrado3 {
+      display: none;
+      visibility: none;
+    }
+
+    .cuadrado_transparente {
+  background-color: #333;
+  width: 100%;
+  height: 80px;
+  position: relative;
+  opacity: 40%;
+  bottom: 85px;
+}
+
+      .cuadrado_transparente h4{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Lobster', cursive;
+      }
+
+      #cuadrado_transparente3{
+        display: none;
+        visibility: none;
+      }
+
+      .boton_recetas{
+        width: 150px;
+        height: 50px;
+        background-color: #f34b86;
+        margin: auto;
+        text-decoration: none;
+        position: relative;
+        bottom: 20px;
+      }
+
+      .boton_recetas h3 {
+          line-height: 50px;
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          font-family: 'PT Serif', serif;
+          font-size: 16px;
+      }
+
+      footer{
+        width: 100%;
+        height: 150px;
+        background-color: yellow;
+        margin-top: 40px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 1.0);
+        position: relative;
+        margin-bottom: 0;
+      }
+}
